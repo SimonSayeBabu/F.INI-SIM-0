@@ -1,0 +1,1 @@
+9999999999{"name": "requests-html", "version": "0.10.0", "summary": "HTML Parsing for Humans.", "platform": "", "requires_dist": ["pyppeteer (>=0.0.14)", "w3lib", "bs4", "parse", "fake-useragent", "pyquery", "requests"], "requires_python": ">=3.6.0", "files": [], "_cache_version": "1.0.0"}
