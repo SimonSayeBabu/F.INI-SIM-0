@@ -11,7 +11,7 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix="$", intents=intents)
 app = Flask('')
-
+bot.remove_command('help')
 
 @app.route('/')
 def main():
