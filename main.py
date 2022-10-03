@@ -61,7 +61,10 @@ async def on_message(message):
                     confirm += 1
             if confirm == 10:
                 cours.append(elmt)
-        await message.channel.send("Voici les cours **d'aujourd'hui** ! : \n" +
+        if len(cours) == 0:
+            await ctx.send("Il n'y a pas cours aujourd'hui !")
+        else:
+            await message.channel.send("Voici les cours **d'aujourd'hui** ! : \n" +
                                    affichage(cours))
 
     if message.content == '$cours demain':
@@ -76,7 +79,10 @@ async def on_message(message):
                     confirm += 1
             if confirm == 10:
                 cours.append(elmt)
-        await message.channel.send("Voici les cours de **demain** ! : \n" +
+        if len(cours) == 0:
+            await ctx.send("Il n'y a pas cours demain !")
+        else:
+            await message.channel.send("Voici les cours de **demain** ! : \n" +
                                    affichage(cours))
 
     await bot.process_commands(message)
