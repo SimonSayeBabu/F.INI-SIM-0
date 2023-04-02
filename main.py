@@ -118,5 +118,5 @@ async def cours(ctx, jj, mm, aaaa):
 
 #    add $cours xx/xx/xx
 
-TOKEN = 'MTAyMjEwNDk3Mjc0NzM2MjM0Ng.GGzc-4.mge7E5iIRtNKvoK2n6BIBqzDXGOcxWT8fvL6PA'
+TOKEN = 'ecrire token ici'
 bot.run(TOKEN)
