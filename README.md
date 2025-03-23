@@ -12,4 +12,4 @@ $cours demain : affiche les cours de la journée de demain.
 
 $cours jj mm aaaa: Donne les cours a la date indiquée.
 
-# Le bot ne fonctionne plus car il ne regarde plus la bonne liste sur le site web de base.
+# Le bot ne fonctionne plus.
